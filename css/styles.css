@@ -1,0 +1,539 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Be Vietnam Pro', sans-serif;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flx-d-c{
+    
+}
+
+.main{
+    background-image: url(../img/bg-tablet-pattern.svg);
+    background-position: left right;
+    background-size: 115vw;
+    height: auto;
+}
+
+/* Aquí van los estilos del header */
+
+.img_header{
+    width: 33vw;
+}
+
+.logo_nav{
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0vw 10vw 0vw 10vw;
+}
+
+/* Textos */
+h1{
+    color: #232C50;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    font-size: 17px;
+    color:rgb(143, 148, 167);
+    text-align: center;
+    margin: 0vw 10vw 0vw 10vw;
+    line-height: 156%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #F3603B;
+    width: 134px;
+    padding: 2.5vh 0vh 2.5vh 0vh;
+    text-align: center;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+}
+
+a:hover{
+    background-color: rgb(238, 138, 113);
+}
+
+h2{
+    color: #232C50;
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    color: #232C50;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(255, 239, 234);
+    height: 40px;
+    align-items: center;
+    margin-left: 5vw;
+    border-radius: 3rem 0rem 0rem 3rem;
+}
+
+h4{
+    color: #232C50;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_datos_3{
+    text-align:justify;
+    margin: 0vw 5vw 0vw 5vw;
+}
+
+h5{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0vw 10vw ;
+}
+
+#btn-bfr-footer{
+    background-color: white;
+    color: rgb(242, 95, 58);
+    box-shadow: 0px 4px 8px rgba(37, 11, 4, 0.5);
+}
+
+#btn-bfr-footer:hover{
+    background-color: rgb(87, 24, 24);
+    cursor: pointer;
+}
+
+#btn-header{
+    display: none;
+}
+
+.nav_list{
+    display: none;
+}
+
+/* Aquí están los estilos de las secciones informativas de la página */
+
+
+/* Sección Acerca de Manage */
+.datos{
+    
+    flex-direction: column;
+    align-items: center;
+    height: auto ;
+}
+
+.datos_intro{
+    width: 100vw;
+}
+
+.datos_1{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Sección "What's Different about manage" */
+
+.datos_2{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.datos_3{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.title::before{
+    display: flex;
+    width: 70px;
+    height: 40px;
+    color: white;
+    background-color: rgb(242, 95, 58);
+    justify-content: center;
+    border-radius: 3rem;
+    align-items: center;
+}
+
+
+#title_1::before{
+    content: '01';
+}
+
+#title_2::before{
+    content: '02';
+}
+
+#title_3::before{
+    content: '03';
+}
+
+/*What they've say */
+
+.datos_4{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.dot{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 2px 0px 2px;
+    background-color:rgb(242, 95, 58);
+    display: inline-block;
+}
+
+.dots{
+    width: 100vw;
+    height: 15px;
+    text-align: center;
+}
+
+.card{
+    width: 350px;
+    height: auto;
+    background-color: #FAFAFA;
+    margin: 50px 0px 10px 0px;
+    position: relative;
+    padding-top: 4em;
+}
+
+
+.profile-photo{
+    position: absolute;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    left: 8.5em;
+    bottom: 11em;
+}
+
+#photo-1{
+    display: none;
+    background-image: url(../img/avatar-anisha.png);
+}
+
+
+#photo-2{
+    background-image: url(../img/avatar-ali.png);
+}
+
+
+#photo-3{
+    background-image: url(../img/avatar-richard.png);
+    display: none;
+}
+
+#card-1, #card-3{
+    display: none;
+}
+
+.before-footer{
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 100vw;
+    justify-content: center;
+    background-color: rgb(242, 95, 58);
+    margin-top: 60px;
+    justify-items: center;
+}
+
+
+
+footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100vw;
+    background-color: #1E1E26;
+    padding: 50px 0 0 0;
+}
+
+.email{
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.inpt-mail{
+    height: 44px;
+    width: 250px;
+    border-radius: 3rem;
+    border-width: 0px;
+}
+
+.inpt-mail:invalid{
+    content: "Hola";
+    color: red;
+    background: white;
+    font-weight: bold;
+    outline: none;
+    padding-left: 20px;
+    border: 1.5px solid red;
+}
+
+.inpt-mail:valid{
+    color: green;
+    background: white;
+    font-weight: bold;
+    outline: none;
+    padding-left: 20px;
+    border: 1.5px solid black;
+}
+
+.inpt-mail::placeholder{
+    padding-left: 20px;
+}
+
+#go{
+    box-shadow: 0px 0px 0px;
+    width: 80px;
+    height: 44px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    margin-top: 50px;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.info_list{
+    color: white;
+    font-size: 18px ;
+}
+
+.footer_icons{
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.social{
+    justify-content: space-around;
+}
+
+#social_icon{
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+#social_icon:hover{
+    color: rgb(242, 95, 58);
+}
+
+#manage_footer{
+    width: 100vw;
+    justify-content: center;
+}
+
+#copyright{
+    margin: 50px 0 30px 0;
+}
+
+.info_manage{
+    flex-direction: column;
+}
+
+#social_link{
+    background-color: unset;
+    box-shadow: unset;
+    width: unset;
+    height: unset;
+    padding:unset;
+}
+
+/* Media Queries */
+
+@media (min-width: 800px) {
+    body{
+        margin: 0 165px 0 165px;
+    }
+    p{
+        margin: 0;
+        text-align: left;
+    }
+    h1{
+        margin: 0;
+        text-align: left;
+        font-size: 58px;
+    }
+    #text_h1{
+        margin-right: 250px;
+    }
+    .logo_nav{
+        padding: 0;
+    }
+    #hamburger{
+        display: none;
+    }
+    .nav_list{
+        display: flex;
+        width: 500px;
+        justify-content: space-around;
+    }
+    #obj_lis_nav{
+        font-size: 18px;
+        text-decoration: none;
+        background-color: white;
+        color: #242E52;
+        box-shadow: unset;
+    }
+    #obj_lis_nav:hover{
+        color: rgb(143, 148, 167);
+    }
+    #btn-header{
+        display: block;
+    }
+    .img_header{
+        width: 140px;
+    }
+    .datos{
+        flex-direction: row-reverse;
+    }
+    .datos_intro{
+        width: 50%;
+    }
+    .datos_1{
+        align-items: flex-start;
+    }
+    .info_manage{
+        flex-direction: row;
+        margin-top: 50px;
+    }
+    .datos_2{
+        margin-top: 40px;
+    }
+    .datos_4{
+        margin-top: 80px;
+    }
+    h2{
+        margin: 0;
+        text-align: left;
+        font-size: 36px;
+    }
+    #text_h2{
+        margin-right: 200px;
+    }
+    
+    .slide-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    #photo-3, #photo-1{
+        display: block;
+    }
+    #card-1{
+        display: block;
+    }
+    #card-3{
+        display: block;
+    }
+    .dots{
+        display: none;
+    }
+    #prf_desc{
+        text-align: center;
+        margin: 0  20px;
+    }
+    .before-footer{
+        flex-direction: row;
+        height: 224px;
+        justify-content: space-between;
+        padding: 0px 165px 0 165px;
+        margin-top: 120px;
+    }
+    h5{
+        width: 50%;
+        justify-content: flex-start;
+        text-align: left;
+        padding: 0;
+    }
+    footer{
+        flex-direction: row-reverse;
+        padding: 0 165px 0 165px;
+        position: relative;
+        height: 247px;
+        justify-content: space-between;
+        align-items:  flex-start;
+        padding-top:  50px;
+    }
+    .footer_icons{
+        flex-direction: column-reverse;
+        width: 15%;
+        margin-top: 0;
+    }
+    #manage_footer{
+        width: 100%;
+    }
+    #social_icon{
+        width: 20px;
+        height: 20px;
+    }
+    .info{
+        margin: 0;
+        width: 35%;
+        justify-content: space-between;
+    }
+    #copyright{
+        position: absolute;
+        right: 165px;
+        top: 120px;
+    }
+    .info_list:hover{
+        color: rgb(242, 95, 58) ;
+    }
+    .email{
+        
+        justify-content: flex-end;
+        width: 30%;
+    }
+    #go{
+        margin-left: 5px;
+    }
+    #p_datos_3{
+        padding-left: 80px;
+    }
+    #social_link{
+        background-color: unset;
+        box-shadow: unset;
+        width: unset;
+        height: unset;
+        padding:unset;
+    }
+    
+}
+
