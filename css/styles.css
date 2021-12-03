@@ -9,9 +9,6 @@
     display: flex;
 }
 
-.flx-d-c{
-    
-}
 
 .main{
     background-image: url(../img/bg-tablet-pattern.svg);
@@ -351,6 +348,7 @@ footer{
 
 #social_icon:hover{
     color: rgb(242, 95, 58);
+    cursor: pointer;
 }
 
 #manage_footer{
@@ -515,6 +513,7 @@ footer{
     }
     .info_list:hover{
         color: rgb(242, 95, 58) ;
+        cursor: pointer;
     }
     .email{
         
